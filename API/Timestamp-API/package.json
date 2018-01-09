@@ -1,0 +1,29 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "A Practice Application for FreeCodeCamp API Section",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "author": "Joseph C Myalla",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "javscript",
+    "express",
+    "FreeCodeCamp"
+  ]
+}
