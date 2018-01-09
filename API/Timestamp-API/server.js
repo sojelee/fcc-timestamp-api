@@ -2,9 +2,11 @@
 // where your node app starts
 
 // init project
-var moment = require('moment');
+var moment  = require('moment');
 var express = require('express');
-var app = express();
+var ejs     = require('ejs');
+var app     = express();
+app.set('view engine', 'ejs')
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -19,8 +21,6 @@ app.get("/", function (request, response) {
 
 app.get("/:query",function(req,res){
   
-  var outObje ={};
-  
   
   
   var time=req.params.query;
@@ -29,9 +29,9 @@ app.get("/:query",function(req,res){
   toUnix =toUnix==="Invalid date"?"null":toUnix;
   var toNatural =moment(time).format("MMMM D, YYYY");
   toNatural =toNatural==="Invalid date"?"null":toNatural;
-  outObje = {unix:toUnix,natural:toNatural}
   
-  res.send(outObje);
+  
+  res.render('results',{unix:toUnix,natural:toNatural});
 });
 
 // listen for requests :)

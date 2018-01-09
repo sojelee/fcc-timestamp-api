@@ -2,15 +2,17 @@
   "name": "timestamp-api",
   "version": "1.0.0",
   "description": "A Practice Application for FreeCodeCamp API Section",
-  "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "moment": "^2.20.1"
+    "jade": "^1.11.0",
+    "moment": "^2.20.1",
+    "pug": "^2.0.0-rc.4"
   },
   "engines": {
     "node": "8.x"
