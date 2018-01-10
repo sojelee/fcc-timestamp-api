@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Author
 <img src="https://avatars3.githubusercontent.com/u/5945067?s=40&amp;v=4" width="200" height="200" class="avatar" alt="@sojelee">
 
@@ -22,6 +20,6 @@ Example Out put
 
 1.	{ "unix": 1450137600, "natural": "December 15, 2015" }
 
-=======
+
 # My FreeCodeCamp-Code
->>>>>>> b1b106d9097e6bf445241cca88bdac28a24f14c4
+
