@@ -29,11 +29,13 @@ p {
 }
 code, ul li {
   color:red;
-  background-color:#ccc;
-  width:600px;
 }
-li {
-  margin-bottom: 5px;
+
+.leftBorder li {
+  margin-bottom: 10px;
+}
+code li {
+  margin-bottom: 10px;
   padding-left:5px;
 }
 
@@ -47,10 +49,15 @@ ul {
   list-style:none; 
   padding-left:0;
 }
+
+header{
+   background: #006400;
+}
 footer {
   margin-top: 50px;
   padding-top: 25px;
   border-top: 1px solid lightgrey;
+  background: #006400;
 }
 
 footer > a {
@@ -60,3 +67,112 @@ footer > a {
 .nicejob {
   text-decoration: line-through;
 }
+
+
+ .medium {
+       height: 140px;
+       background: #006400;
+   }
+
+   .medium ul {
+      display: flex;
+      height: 40px;
+      list-style: none;
+      align-items: center;
+   }
+
+   .medium li {
+        color: #ffffff;
+   }
+
+   .medium ul:nth-child(1) li:first-child {
+      margin-right: auto;
+      margin-left: 100px;
+   }
+   
+  
+   .medium ul:nth-child(1) li:nth-child(2) {
+       margin-left: auto;
+   }
+
+   .medium ul:nth-child(1) li:not(.M){
+      margin-right: 10px;
+      color:#8ABF7C;
+   }
+
+   .medium ul:nth-child(2) li:first-child {
+      margin-left: 100px;
+   }
+
+    .medium ul:nth-child(2) li {
+       margin-right: 15px;
+
+   }
+   .medium ul:nth-child(2) li:last-child {
+       margin-right: 100px;
+
+   }
+
+   .medium ul:nth-child(1) li:last-child {
+       margin-right: 100px;
+
+   }
+
+   .medium ul:nth-child(2) li:nth-child(6) {
+       margin-left: auto;
+       
+   }
+
+
+   .medium ul:nth-child(2) li:nth-child(1) i {
+       margin-left: 5px;
+       
+   }
+
+   .medium ul:nth-child(2) li:not(.fccmed){
+      color:#8ABF7C;
+   }
+
+   .medium ul:nth-child(1) li:hover{
+      color:#ffffff;
+   }
+
+   .medium ul:nth-child(2) li:hover{
+      color:#ffffff;
+   }
+
+   .medium ul:nth-child(1) li:last-child{
+    display:block;
+    width:120px;
+    height: 30px;
+    padding-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #8ABF7C;
+   }
+
+   .medium ul:nth-child(2) li:last-child{
+    display:block;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #8ABF7C;
+   }
+
+   .medium ul:nth-child(1) li:first-child{
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    color: #006400;
+    font-weight: bolder;
+    text-align: center;
+    background: #F3FFEA;
+   }
