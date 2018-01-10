@@ -8,6 +8,28 @@ body {
   margin: 25px;
 }
 
+
+a:link {
+    text-decoration: none;
+    color:#8ABF7C;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.icons {
+   color:#8ABF7C;
+}
+
 h1 {
   font-weight: bold;
   color: #000;
@@ -57,7 +79,7 @@ footer {
   margin-top: 50px;
   padding-top: 25px;
   border-top: 1px solid lightgrey;
-  background: #006400;
+  
 }
 
 footer > a {
