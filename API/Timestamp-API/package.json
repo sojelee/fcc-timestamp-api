@@ -1,20 +1,11 @@
 {
-<<<<<<< HEAD
   "name": "timestamp",
-=======
-  "name": "timestamp-api",
->>>>>>> b1b106d9097e6bf445241cca88bdac28a24f14c4
   "version": "1.0.0",
   "description": "A Practice Application for FreeCodeCamp API Section",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1"
-=======
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd client && npm install"
->>>>>>> b1b106d9097e6bf445241cca88bdac28a24f14c4
   },
   "dependencies": {
     "ejs": "^2.5.7",
